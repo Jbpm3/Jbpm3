@@ -1,15 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0e7490,100:22d3ee&height=200&section=header&text=JOSH%20BERNARD&fontSize=47&fontColor=ffffff&fontAlignY=38&desc=Data%20%7C%20Code%20%7C%20Curiosity&descSize=19&descAlignY=61&animation=fadeIn" width="100%" alt="Josh Bernard — Data, Code, Curiosity" />
-
 ### Hey, I'm Josh 👋
 
 **Computer Science Student** · **Aspiring Data Engineer** · **Cebu, Philippines** 🇵🇭
 
 *Building my foundations in data engineering, one query and one project at a time.*
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
-[![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=0891b2)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jbpm3)
+[![Profile Views](https://komarev.com/ghpvc/?username=Jbpm3&style=for-the-badge&color=0891b2)](https://github.com/Jbpm3)
 
 </div>
 
