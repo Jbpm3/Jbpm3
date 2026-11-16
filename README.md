@@ -13,6 +13,40 @@ Building practical data projects with an emphasis on **data quality, reproducibl
 
 ---
 
+## Skills & Technologies
+
+**SQL and databases**
+
+![SQL](https://img.shields.io/badge/SQL-334155?style=flat-square&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+
+- Relational modeling, joins, CTEs, conditional aggregation, date-based analysis, and data-quality checks.
+- Translating business questions into SQL metrics and documenting assumptions and exclusions.
+
+**Python and data workflows**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+- Currently building independent Python/pandas proficiency for extracting, validating, and preparing analytical datasets.
+- Exposure to h5py, Shapely, satellite-data tooling, and automated checks through AI-assisted team development.
+
+**Software and development tools**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+Git · GitHub · pgAdmin · VS Code · GitHub Actions (team-project exposure) · Shortcut · Codex
+
+---
+
 ## Featured Projects
 
 ### 01 / Olist — E-Commerce Shipment Delay Analysis
@@ -71,40 +105,6 @@ Hubas is a team-built application for exploring soil moisture, dam conditions, a
 | :--- | :--- | :--- |
 | [**DailyDish**](https://github.com/Jbpm3/DailyDish) | AI-featured calorie-tracking mobile application; contributed to frontend development in a team | React Native, TypeScript, Expo |
 | [**IsipKard**](https://github.com/Jbpm3/IsipKard) | Flashcard study application | Java |
-
----
-
-## Skills & Technologies
-
-**SQL and databases**
-
-![SQL](https://img.shields.io/badge/SQL-334155?style=flat-square&logo=postgresql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-
-- Relational modeling, joins, CTEs, conditional aggregation, date-based analysis, and data-quality checks.
-- Translating business questions into SQL metrics and documenting assumptions and exclusions.
-
-**Python and data workflows**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-- Currently building independent Python/pandas proficiency for extracting, validating, and preparing analytical datasets.
-- Exposure to h5py, Shapely, satellite-data tooling, and automated checks through AI-assisted team development.
-
-**Software and development tools**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-
-Git · GitHub · pgAdmin · VS Code · GitHub Actions (team-project exposure) · Shortcut · Codex
 
 ---
 
