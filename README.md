@@ -110,12 +110,12 @@ Git · GitHub · pgAdmin · VS Code · GitHub Actions (team-project exposure) ·
 
 ## Currently Building
 
-\`\`\`text
+```text
 Olist SQL analysis
     -> Python + pandas data export
     -> validated analytical datasets
     -> interactive Streamlit dashboard
-\`\`\`
+```
 
 The goal is an end-to-end analytics project that connects **database analysis**, **Python data processing**, **data validation**, and a **public-facing dashboard**.
 
