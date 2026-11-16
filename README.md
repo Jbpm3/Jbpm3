@@ -1,116 +1,126 @@
 <div align="center">
 
-### Hey, I'm Josh 👋
+# Josh Bernard Magsipoc
 
-**Computer Science Student** · **Aspiring Data Engineer** · **Cebu, Philippines** 🇵🇭
+**Data Engineering · SQL · Data Analytics**
 
-*Building my foundations in data engineering, one query and one project at a time.*
+Building practical data projects with an emphasis on **data quality, reproducible analysis, and useful results**.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/josh-bernard-magsipoc-12b78a2b1)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jbpm3)
-[![Profile Views](https://komarev.com/ghpvc/?username=Jbpm3&style=for-the-badge&color=0891b2)](https://github.com/Jbpm3)
 
 </div>
 
 ---
 
-### `> whoami`
+## Featured Projects
 
-```yaml
-name: Josh Bernard
-location: Cebu, Philippines
-education: BS Computer Science, University of San Carlos
-career_focus: Data Engineering
-also_interested_in: [Data Analytics, AI Engineering]
-currently_learning: [Advanced SQL, Data Modeling, ETL, Data Quality]
-approach: Build, test, validate, improve
-```
+### 01 / Olist — E-Commerce Shipment Delay Analysis
 
-I enjoy the intersection of **data, software engineering, and problem-solving**. My background spans relational databases, web and mobile application projects, and hands-on analytics. I'm now putting more energy into building reliable data workflows and making data useful for real decisions.
+**Independent data analysis · PostgreSQL · SQL · Data validation**
 
-### `> tech_stack`
+[**Repository**](https://github.com/Jbpm3/olist-shipment-delay-analysis) · [**SQL analyses**](https://github.com/Jbpm3/olist-shipment-delay-analysis/tree/main/sql) · [**Findings**](https://github.com/Jbpm3/olist-shipment-delay-analysis/blob/main/docs/findings.md)
 
-**Data, languages & libraries**
+Analyzing historical Brazilian e-commerce orders to measure shipping performance, detect data-quality issues, and identify where delivery delays are concentrated.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+| 99,441 | 96,470 | 6.77% | 10.62 days |
+| :---: | :---: | :---: | :---: |
+| Orders in dataset | Eligible delivered orders | Late-delivery rate | Avg. delay among late orders |
+
+**Technical work and findings**
+
+- Created PostgreSQL tables with relational constraints, imported customer and order records, and validated referential integrity.
+- Wrote SQL for delivery classification, delay-duration metrics, conditional aggregation, and comparisons across **27 Brazilian states**.
+- Investigated **1,359** cases where carrier handoff timestamps preceded order approval; documented **2,965** missing delivery timestamps and the eligibility rules for delay analysis.
+- Identified high late-delivery rates among orders purchased in **March 2018 (18.96%)**, **February 2018 (14.13%)**, and **November 2017 (12.40%)**. Monthly figures were calculated locally; the project is still being documented.
+
+**Next milestone:** Extend the existing SQL work with a Python/pandas export workflow and deploy a **Streamlit dashboard**. *Not deployed yet.*
+
+### 02 / Hubas — NASA Space Apps Challenge 2026
+
+**Team MangoSpace · Satellite data · AI-assisted engineering**
+
+[**Live application**](https://hubas.vercel.app/) · [**Source repository**](https://github.com/watsonjph/MangoSpace)
+
+Hubas is a team-built application for exploring soil moisture, dam conditions, and rice-field radar observations in **Cebu and Bohol**, using satellite data from NISAR and other sources.
+
+**Project scope and contributions**
+
+- Participated in an **autonomous Codex-assisted development workflow**, coordinating GitHub contributions related to NISAR data ingestion, file verification, soil-moisture quality checks, and Sentinel-1 processing.
+- Contributed AI-assisted changes associated with validation of **76 NISAR granules (~6.35 GB)** and satellite coverage assessments.
+- Worked through repository pull requests covering ASF HyP3 batch orchestration (**52 terrain-correction jobs submitted**), pipeline testing, and radar-image inspection features. Submission does not imply all jobs completed.
+- Collaborated through **GitHub, GitHub Actions, and Shortcut** on a multi-contributor project.
+
+**Technologies in the project:** Python, NumPy, h5py, Shapely, NASA Earthdata, ASF/HyP3, GitHub Actions, TypeScript.
+
+> Hubas is a collaborative hackathon project. My assigned changes were implemented and tested autonomously with Codex; the broader application and its findings are team work.
+
+### 03 / Room For Rent Management System
+
+**Full-stack application · PHP · MySQL · JavaScript**
+
+[**Repository**](https://github.com/Jbpm3/Room-For-Rent-Management-System)
+
+- Built a rental-management web application using **PHP, MySQL, HTML, CSS, and JavaScript**.
+- Designed relational tables and database-backed functionality for managing rental information.
+- Practiced SQL integration between a web interface and application backend.
+
+### Other Builds
+
+| Project | Focus | Technologies |
+| :--- | :--- | :--- |
+| [**DailyDish**](https://github.com/Jbpm3/DailyDish) | AI-featured calorie-tracking mobile application; contributed to frontend development in a team | React Native, TypeScript, Expo |
+| [**IsipKard**](https://github.com/Jbpm3/IsipKard) | Flashcard study application | Java |
+
+---
+
+## Skills & Technologies
+
+**SQL and databases**
+
 ![SQL](https://img.shields.io/badge/SQL-334155?style=flat-square&logo=postgresql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 
-**Software development**
+- Relational modeling, joins, CTEs, conditional aggregation, date-based analysis, and data-quality checks.
+- Translating business questions into SQL metrics and documenting assumptions and exclusions.
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111827)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+**Python and data workflows**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+- Currently building independent Python/pandas proficiency for extracting, validating, and preparing analytical datasets.
+- Exposure to h5py, Shapely, satellite-data tooling, and automated checks through AI-assisted team development.
+
+**Software and development tools**
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![React_Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=111827)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**Tools & collaboration**
-
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Shortcut](https://img.shields.io/badge/Shortcut-5C38F0?style=flat-square&logo=shortcut&logoColor=white)
-![OpenAI Codex](https://img.shields.io/badge/AI--assisted_development-0F766E?style=flat-square&logo=openai&logoColor=white)
 
-<sub>These are technologies I've used or studied—not a claim of expert-level proficiency in each.</sub>
+Git · GitHub · pgAdmin · VS Code · GitHub Actions (team-project exposure) · Shortcut · Codex
 
-### `> featured_work`
+---
 
-| Project | What I worked on | Stack |
-| :-- | :-- | :-- |
-| **Shipment Delay Analysis — Olist** *(in progress)* | Exploring Brazilian e-commerce order data using SQL; checking delivery delays, timestamp completeness, and event-order anomalies. | PostgreSQL, SQL |
-| **NASA hackathon team project** *(in progress)* | Participating as the team's assigned **Data Engineer**, collaborating on a project that uses NASA-provided datasets. | GitHub, Codex, Shortcut |
-| **Room For Rent Management System** *(2025)* | Full-stack room-rental management project using a relational database and web technologies. | HTML, CSS, JavaScript, PHP, MySQL |
-| **DailyDish** *(2026)* | Group project for an AI-featured calorie-tracking mobile app; responsible for **front-end development**. | JavaScript, TypeScript, React Native, Expo |
-| **IsipKard** *(2026)* | Flashcard application inspired by spaced-repetition study tools, built for a mobile-development project. | Java |
+## Currently Building
 
-> Some work is ongoing or part of a team. I describe my own responsibilities separately from the wider project's scope.
+\`\`\`text
+Olist SQL analysis
+    -> Python + pandas data export
+    -> validated analytical datasets
+    -> interactive Streamlit dashboard
+\`\`\`
 
-### `> experience`
-
-**Knowles Corporation — Grade 12 Work Immersion (Analytics)**  
-*January–February 2024 · Lapu-Lapu City, Philippines*
-
-- Worked with real-world data using **Microsoft Excel**.
-- Used **pivot tables and charts** to examine information and support analysis/reporting tasks.
-
-### `> education_and_achievements`
-
-🎓 **University of San Carlos** — BS Computer Science *(ongoing)*  
-🏅 **Dean's List** recognition  
-🦅 **Eagle Scout of the Philippines** recognition
-
-**Cisco learning / course completions**
-- CCNA: Introduction to Networks *(2025)*
-- CCNA: Switching, Routing, and Wireless Essentials *(2026)*
-- Introduction to Cybersecurity
-
-### `> currently_building`
-
-- 🧱 Improving **SQL**, database design, constraints, CTEs, window functions, and data validation.
-- 📦 Working through the **DataCamp Associate Data Engineer in SQL** learning track.
-- 🔍 Investigating delivery-performance and data-quality questions in the **Olist** dataset.
-- 🚀 Collaborating on a **NASA hackathon** team project, using version control and sprint-based workflows.
-- 🔄 Learning to design reproducible **ETL pipelines**, with careful attention to data contracts and quality checks.
-
-### `> github_activity`
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=22d3ee&text_color=c9d1d9" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9" height="165" alt="Most-used languages" />
-</div>
+The goal is an end-to-end analytics project that connects **database analysis**, **Python data processing**, **data validation**, and a **public-facing dashboard**.
 
 ---
 
 <div align="center">
-
-**Always learning. Always building. Always validating.**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:0e7490,100:0f172a&height=100&section=footer" width="100%" alt="" />
-
+<sub>Projects over buzzwords. Evidence over assumptions.</sub>
 </div>
