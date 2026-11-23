@@ -30,9 +30,11 @@ Building practical data projects with an emphasis on **data quality, reproducibl
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=python&logoColor=white)
 
-- Currently building independent Python/pandas proficiency for extracting, validating, and preparing analytical datasets.
-- Exposure to h5py, Shapely, satellite-data tooling, and automated checks through AI-assisted team development.
+- Built a Python/pandas and SQLAlchemy workflow for SQL extraction, automated validation checks, and CSV exports; deployed the resulting analytics dashboard with Streamlit.
+- Continuing to strengthen independent Python skills; exposure to h5py, Shapely, satellite-data tooling, and automated checks through AI-assisted team development.
 
 **Software and development tools**
 
@@ -51,11 +53,11 @@ Git · GitHub · pgAdmin · VS Code · GitHub Actions (team-project exposure) ·
 
 ### 01 / Olist — E-Commerce Shipment Delay Analysis
 
-**Independent data analysis · PostgreSQL · SQL · Data validation**
+**Independent analytics project · PostgreSQL · SQL · Python · pandas · SQLAlchemy · Streamlit**
 
-[**Repository**](https://github.com/Jbpm3/olist-shipment-delay-analysis) · [**SQL analyses**](https://github.com/Jbpm3/olist-shipment-delay-analysis/tree/main/sql) · [**Findings**](https://github.com/Jbpm3/olist-shipment-delay-analysis/blob/main/docs/findings.md)
+[**Live dashboard**](https://olist-shipment-delay-analysis.streamlit.app/) · [**Repository**](https://github.com/Jbpm3/olist-shipment-delay-analysis) · [**SQL analyses**](https://github.com/Jbpm3/olist-shipment-delay-analysis/tree/main/sql) · [**Findings**](https://github.com/Jbpm3/olist-shipment-delay-analysis/blob/main/docs/findings.md)
 
-Analyzing historical Brazilian e-commerce orders to measure shipping performance, detect data-quality issues, and identify where delivery delays are concentrated.
+Built and deployed an interactive dashboard for exploring delivery delays in a historical Brazilian e-commerce dataset. The workflow combines PostgreSQL analysis, Python data extraction and validation, and CSV-powered Streamlit visualizations.
 
 | 99,441 | 96,470 | 6.77% | 10.62 days |
 | :---: | :---: | :---: | :---: |
@@ -63,12 +65,13 @@ Analyzing historical Brazilian e-commerce orders to measure shipping performance
 
 **Technical work and findings**
 
-- Created PostgreSQL tables with relational constraints, imported customer and order records, and validated referential integrity.
-- Wrote SQL for delivery classification, delay-duration metrics, conditional aggregation, and comparisons across **27 Brazilian states**.
-- Investigated **1,359** cases where carrier handoff timestamps preceded order approval; documented **2,965** missing delivery timestamps and the eligibility rules for delay analysis.
-- Identified high late-delivery rates among orders purchased in **March 2018 (18.96%)**, **February 2018 (14.13%)**, and **November 2017 (12.40%)**. Monthly figures were calculated locally; the project is still being documented.
+- Created relational PostgreSQL tables, imported order and customer records, and validated referential integrity.
+- Used joins, CTEs, window functions, and aggregations to analyze delivery performance across **27 Brazilian states** and **23 purchase months**.
+- Investigated **1,359** carrier-before-approval timestamp anomalies and documented missing delivery timestamps and analytical eligibility rules.
+- Developed a reusable **Python/pandas + SQLAlchemy** extraction workflow, with assertions checking regional and monthly totals before exporting dashboard-ready CSVs.
+- Deployed a **Streamlit dashboard** with three dynamic KPI cards, an interactive state-level delivery-volume filter, a regional bar chart, monthly late-delivery trends, and expandable data tables.
 
-**Next milestone:** Extend the existing SQL work with a Python/pandas export workflow and deploy a **Streamlit dashboard**. *Not deployed yet.*
+**[Explore the live dashboard →](https://olist-shipment-delay-analysis.streamlit.app/)**
 
 ### 02 / Hubas — NASA Space Apps Challenge 2026
 
@@ -108,16 +111,20 @@ Hubas is a team-built application for exploring soil moisture, dam conditions, a
 
 ---
 
-## Currently Building
+## Current Focus
+
+**Olist analytics workflow — deployed:**
 
 ```text
-Olist SQL analysis
-    -> Python + pandas data export
-    -> validated analytical datasets
-    -> interactive Streamlit dashboard
+PostgreSQL + SQL analysis
+    -> Python/pandas + SQLAlchemy extraction
+    -> automated validation + CSV exports
+    -> deployed Streamlit dashboard
 ```
 
-The goal is an end-to-end analytics project that connects **database analysis**, **Python data processing**, **data validation**, and a **public-facing dashboard**.
+[**View the live dashboard**](https://olist-shipment-delay-analysis.streamlit.app/)
+
+Next, I'm deepening my Python and data engineering fundamentals while exploring API development and cloud storage as potential extensions.
 
 ---
 
