@@ -73,7 +73,20 @@ Built and deployed an interactive dashboard for exploring delivery delays in a h
 
 **[Explore the live dashboard →](https://olist-shipment-delay-analysis.streamlit.app/)**
 
-### 02 / Hubas — NASA Space Apps Challenge 2026
+### 02 / Dota 2 Match Analytics ETL Pipeline
+
+**In progress · Python · Requests · OpenDota REST API**
+
+[**Repository**](https://github.com/Jbpm3/dota2-match-analytics-etl-pipeline)
+
+Building a pipeline that collects Dota 2 match data from OpenDota and prepares it for analysis in PostgreSQL.
+
+- Implemented single-match API extraction with a request timeout and HTTP status checks.
+- Parsed match and player JSON to display match duration, player names, hero IDs, and kills, deaths, and assists.
+- Grouped players into Radiant and Dire teams and added a fallback for missing player names.
+- Planned next steps: structure match and player records, load them into PostgreSQL, prevent duplicates across runs, and analyze hero and player performance with SQL.
+
+### 03 / Hubas — NASA Space Apps Challenge 2026
 
 **Team MangoSpace · Satellite data · AI-assisted engineering**
 
@@ -92,7 +105,7 @@ Hubas is a team-built application for exploring soil moisture, dam conditions, a
 
 > Hubas is a collaborative hackathon project. My assigned changes were implemented and tested autonomously with Codex; the broader application and its findings are team work.
 
-### 03 / Room For Rent Management System
+### 04 / Room For Rent Management System
 
 **Full-stack application · PHP · MySQL · JavaScript**
 
@@ -113,6 +126,19 @@ Hubas is a team-built application for exploring soil moisture, dam conditions, a
 
 ## Current Focus
 
+**Dota 2 Match Analytics ETL Pipeline, in progress:**
+
+The current Python script retrieves an OpenDota match and displays match and player statistics. I'm building toward this workflow:
+
+```text
+OpenDota REST API
+    -> Python extraction and transformation
+    -> PostgreSQL loading with duplicate prevention
+    -> SQL analysis of hero and player performance
+```
+
+PostgreSQL loading, duplicate prevention, and SQL analysis are planned.
+
 **Olist analytics workflow — deployed:**
 
 ```text
@@ -123,8 +149,6 @@ PostgreSQL + SQL analysis
 ```
 
 [**View the live dashboard**](https://olist-shipment-delay-analysis.streamlit.app/)
-
-Next, I'm deepening my Python and data engineering fundamentals while exploring API development and cloud storage as potential extensions.
 
 ---
 
