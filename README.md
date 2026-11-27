@@ -79,12 +79,13 @@ Built and deployed an interactive dashboard for exploring delivery delays in a h
 
 [**Repository**](https://github.com/Jbpm3/dota2-match-analytics-etl-pipeline)
 
-Building a pipeline that collects Dota 2 match data from OpenDota and prepares it for analysis in PostgreSQL.
+I'm building a Python ETL pipeline to collect Dota 2 match details and player match histories from OpenDota. The goal is to turn API responses into structured match and player records in PostgreSQL, then use SQL to analyze hero performance and player results across matches.
 
-- Implemented single-match API extraction with a request timeout and HTTP status checks.
-- Parsed match and player JSON to display match duration, player names, hero IDs, and kills, deaths, and assists.
-- Grouped players into Radiant and Dire teams and added a fallback for missing player names.
-- Planned next steps: structure match and player records, load them into PostgreSQL, prevent duplicates across runs, and analyze hero and player performance with SQL.
+- Implemented single-match extraction and player match-history requests with a 15-second timeout and HTTP status checks.
+- Displayed match duration in minutes and seconds, player names, hero IDs, and kills, deaths, and assists, grouped by Radiant and Dire team.
+- Added player match history with a default limit of 20 matches, including each match's ID, hero ID, and win or loss from the player's perspective.
+- Refactored player history into reusable functions for API requests, result calculation, and console output.
+- Planned next steps: finish win-rate calculation, structure match and player records, load them into PostgreSQL, prevent duplicates across runs, and analyze hero and player performance with SQL.
 
 ### 03 / Hubas — NASA Space Apps Challenge 2026
 
@@ -128,7 +129,7 @@ Hubas is a team-built application for exploring soil moisture, dam conditions, a
 
 **Dota 2 Match Analytics ETL Pipeline, in progress:**
 
-The current Python script retrieves an OpenDota match and displays match and player statistics. I'm building toward this workflow:
+The Python scripts now retrieve individual matches and player match histories, display team statistics, and determine each player's match result. I'm building toward this workflow:
 
 ```text
 OpenDota REST API
@@ -137,7 +138,7 @@ OpenDota REST API
     -> SQL analysis of hero and player performance
 ```
 
-PostgreSQL loading, duplicate prevention, and SQL analysis are planned.
+The scripts currently print results to the console. Win-rate calculation is unfinished; structured records, PostgreSQL loading, duplicate prevention, and SQL analysis are planned.
 
 **Olist analytics workflow — deployed:**
 
