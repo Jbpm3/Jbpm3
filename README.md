@@ -83,9 +83,10 @@ I'm building a Python ETL pipeline to collect Dota 2 match details and player ma
 
 - Implemented single-match extraction and player match-history requests with a 15-second timeout and HTTP status checks.
 - Displayed match duration in minutes and seconds, player names, hero IDs, and kills, deaths, and assists, grouped by Radiant and Dire team.
-- Added player match history with a default limit of 20 matches, including each match's ID, hero ID, and win or loss from the player's perspective.
+- Added player match history with a default limit of 20 matches, including each match ID, localized hero name, and result from the player's perspective.
+- Calculated overall win rate and per-hero match counts, wins, and win rates from the returned matches.
 - Refactored player history into reusable functions for API requests, result calculation, and console output.
-- Planned next steps: finish win-rate calculation, structure match and player records, load them into PostgreSQL, prevent duplicates across runs, and analyze hero and player performance with SQL.
+- Next steps are to structure match and player records, load them into PostgreSQL with duplicate prevention, and analyze hero and player performance with SQL.
 
 ### 03 / Hubas — NASA Space Apps Challenge 2026
 
@@ -129,7 +130,7 @@ Hubas is a team-built application for exploring soil moisture, dam conditions, a
 
 **Dota 2 Match Analytics ETL Pipeline, in progress:**
 
-The Python scripts now retrieve individual matches and player match histories, display team statistics, and determine each player's match result. I'm building toward this workflow:
+The Python scripts now retrieve individual matches and player match histories, display team statistics, and summarize overall and per-hero win rates for the matches returned. I'm building toward this workflow:
 
 ```text
 OpenDota REST API
@@ -138,7 +139,7 @@ OpenDota REST API
     -> SQL analysis of hero and player performance
 ```
 
-The scripts currently print results to the console. Win-rate calculation is unfinished; structured records, PostgreSQL loading, duplicate prevention, and SQL analysis are planned.
+The scripts currently print results to the console. Structured records, PostgreSQL loading, duplicate prevention, and SQL analysis are planned.
 
 **Olist analytics workflow — deployed:**
 
